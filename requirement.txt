@@ -1,0 +1,18 @@
+nose==1.3.4
+gymnasium
+#gymnasium[atari, accept-rom-license]
+swig
+#gymnasium[box2d]
+pyaudio
+pillow==11.0.0
+numpy
+matplotlib
+opencv-python
+pathlib
+ffmpeg-python
+pytesseract
+#tesseract-ocr
+pypng
+glob2
+CaptchaCracker
+tensorflow==2.13.1

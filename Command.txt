@@ -1,0 +1,10 @@
+pip install -r requirement.txt
+pip freeze --local | grep -v '^\-e' | cut -d = -f 1 | zargs -nl pip install -U
+
+mkdir Environment
+cd Environment
+python -m virtualenv .
+python -m virtualenv  datascience_env
+.\datascience_env\Scripts\activate.bat
+source .\datascience_env\Scripts\activate
+python source datascience_env/bin/activate
